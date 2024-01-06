@@ -6,9 +6,10 @@ body{
     align-items: center;
     color:#B95D52;
 }
-ul, li{
-    list-style:none;
+.sp-only{
+    display:none;
 }
+/***  HEADER・FOOTER  ***/
 .header-memu{
     width:100%;
     height:40px;
@@ -19,7 +20,7 @@ ul, li{
     background-color:#291B1B;
     opacity:0.8;
 }
-.header-menu-text{
+.header-menu-contents-text{
     color:#FFFFFF;
     text-decoration:none;
     font-size:18px;
@@ -41,16 +42,28 @@ ul, li{
     border-radius:10%;
     padding:12px;
 }
+footer{
+    padding:3em 0;
+    font-size:12px;
+}
 
+/***  CONTAINER  ***/
 .container{
     margin-top:-40px;
     padding-top:40px;
-    width:75%;
+    width:60%;
+    min-width:1024px;
     margin:0 auto;
+}
+
+/***  TOP  ***/
+.wrapper-top{
 }
 .wrapper-top img{
     width:100%;
 }
+
+/***  PROFILE  ***/
 .wrapper-profile{
     padding:135px 0;
 }
@@ -60,16 +73,8 @@ ul, li{
 .wrapper-profile-contents-img{
     padding-right:3em;
 }
-.wrapper-profile-contents-img img{
-    
-}
 .wrapper-profile-contents-text{
     display:inline-block;
-    
-}
-.wrapper-contents{
-    margin-top:-40px;
-    padding-top:60px;
 }
 .wrapper-profile-contents-text-name, .wrapper-contents-title, .wrapper-contact-title{
     font-family:'Vast Shadow';
@@ -93,6 +98,11 @@ ul, li{
     display:inline-block;
 }
 
+/***  Live2D・Gallery・Fanart  ***/
+.wrapper-contents{
+    margin-top:-40px;
+    padding-top:60px;
+}
 .wrapper-contents-img{
     margin:30px 0 60px;
 }
@@ -102,6 +112,7 @@ ul, li{
     box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 }
 
+/***  CONTACT  ***/
 .wrapper-contact{
     border-bottom: 3px solid;
 }
@@ -116,8 +127,4 @@ ul, li{
     font-size:21px;
     font-weight:bold;
     letter-spacing: .1em;
-}
-footer{
-    padding:3em 0;
-    font-size:12px;
 }

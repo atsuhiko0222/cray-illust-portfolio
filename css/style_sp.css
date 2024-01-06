@@ -1,0 +1,62 @@
+@charset "utf-8";
+@media  screen and (max-width:520px) {
+    .pc-only{
+        display:none;
+    }
+    /***  HEADER・FOOTER  ***/
+    .header-memu{
+    }
+    .header-menu-hamburger{
+        display:flex;
+        color:#FFFFFF;
+        justify-content:right;
+    }
+    .footer-pageup{
+    }
+    footer{
+    }
+
+    /***  CONTAINER  ***/
+    .container{
+        width:100%;
+    }
+
+    /***  TOP  ***/
+    .wrapper-top img{
+        width:100%;
+    }
+
+    /***  PROFILE  ***/
+    .wrapper-profile{
+    }
+    .wrapper-profile-contents{
+    }
+    .wrapper-profile-contents-img{
+    }
+    .wrapper-profile-contents-text{
+    }
+    .wrapper-profile-contents-text-name, .wrapper-contents-title, .wrapper-contact-title{
+    }
+    .wrapper-profile-contents-text-details{
+    }
+    .wrapper-profile-contents-text-link{
+    }
+    .wrapper-profile-contents-text-link li{
+    }
+
+    /***  Live2D・Gallery・Fanart  ***/
+    .wrapper-contents{
+    }
+    .wrapper-contents-img{
+    }
+    .wrapper-contents-img img{
+    }
+
+    /***  CONTACT  ***/
+    .wrapper-contact{
+    }
+    .wrapper-contact-text{
+    }
+    .wrapper-contact-text-mail{
+    }
+}
