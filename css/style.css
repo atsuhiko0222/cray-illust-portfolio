@@ -47,20 +47,21 @@ footer{
     font-size:12px;
 }
 
-/***  CONTAINER  ***/
-.container{
-    margin-top:-40px;
-    padding-top:40px;
-    width:60%;
-    min-width:1024px;
-    margin:0 auto;
-}
-
 /***  TOP  ***/
 .wrapper-top{
+    padding-top:40px;
+    width:60%;
+    margin:0 auto;
 }
 .wrapper-top img{
     width:100%;
+}
+
+/***  CONTAINER  ***/
+.container{
+    width:60%;
+    min-width:1024px;
+    margin:0 auto;
 }
 
 /***  PROFILE  ***/
@@ -100,7 +101,6 @@ footer{
 
 /***  Live2D・Gallery・Fanart  ***/
 .wrapper-contents{
-    margin-top:-40px;
     padding-top:60px;
 }
 .wrapper-contents-img{
