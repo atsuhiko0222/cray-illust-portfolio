@@ -5,11 +5,13 @@
     }
     /***  HEADER・FOOTER  ***/
     .header-memu{
+        text-align: right;
     }
     .header-menu-hamburger{
-        display:flex;
+        display:inline;
+        line-height:40px;
         color:#FFFFFF;
-        justify-content:right;
+        padding:20px;
     }
     .footer-pageup{
     }
