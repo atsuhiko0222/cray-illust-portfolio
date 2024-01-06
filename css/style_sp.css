@@ -38,9 +38,9 @@
 
     /***  PROFILE  ***/
     .wrapper-profile{
-        width:auto;
     }
     .wrapper-profile-contents{
+        width:auto;
     }
     .wrapper-profile-contents-img{
         width:60%;
@@ -58,7 +58,9 @@
     }
     .wrapper-profile-contents-text-link{
     }
-    .wrapper-profile-contents-text-link li{
+    .wrapper-profile-contents-text-link img{
+        width:80%;
+        padding:0 .2em;
     }
 
     /***  Live2D・Gallery・Fanart  ***/
