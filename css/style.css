@@ -6,6 +6,9 @@ body{
     align-items: center;
     color:#B95D52;
 }
+.pc-only{
+    display:initial;
+}
 .sp-only{
     display:none;
 }
@@ -108,7 +111,7 @@ footer{
 }
 .wrapper-contents-img img{
     max-width:30%;
-    margin:.8em .8em;
+    margin:.8em;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 }
 

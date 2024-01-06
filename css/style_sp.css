@@ -3,6 +3,9 @@
     .pc-only{
         display:none;
     }
+    .sp-only{
+        display:initial;
+    }
     /***  HEADER・FOOTER  ***/
     .header-memu{
         text-align: right;
@@ -62,7 +65,7 @@
         justify-content: space-between;
     }
     .wrapper-contents-img img{
-        max-width:45%;
+        max-width:50%;
         margin:.4em .1em;
     }
 
