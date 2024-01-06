@@ -57,9 +57,12 @@
     .wrapper-contents{
     }
     .wrapper-contents-img{
-        text-align:left;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
     }
     .wrapper-contents-img img{
+        max-width:45%;
         margin:.4em .1em;
     }
 
