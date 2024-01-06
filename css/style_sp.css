@@ -6,12 +6,12 @@
     /***  HEADER・FOOTER  ***/
     .header-memu{
         text-align: right;
+        justify-content:center;
     }
     .header-menu-hamburger{
-        display:inline;
-        line-height:40px;
+        display:inline-block;
         color:#FFFFFF;
-        padding:20px;
+        padding:4px 20px;
     }
     .footer-pageup{
     }
@@ -21,6 +21,7 @@
     /***  CONTAINER  ***/
     .container{
         width:100%;
+        min-width:auto;
     }
 
     /***  TOP  ***/
