@@ -42,6 +42,7 @@
     .wrapper-profile-contents{
     }
     .wrapper-profile-contents-img{
+        width:60%;
         padding-right:0;
         padding-bottom:1em;
     }
@@ -50,6 +51,8 @@
     .wrapper-profile-contents-text-name, .wrapper-contents-title, .wrapper-contact-title{
     }
     .wrapper-profile-contents-text-details{
+        font-size:16px;
+        line-height:1.4;
     }
     .wrapper-profile-contents-text-link{
     }
