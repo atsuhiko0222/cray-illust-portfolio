@@ -60,8 +60,7 @@
         text-align:left;
     }
     .wrapper-contents-img img{
-        max-width:46%;
-        margin:0;
+        margin:.4em .1em;
     }
 
     /***  CONTACT  ***/
