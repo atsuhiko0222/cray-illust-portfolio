@@ -16,6 +16,7 @@
     .footer-pageup{
     }
     footer{
+        font-size:9px;
     }
 
     /***  TOP  ***/
@@ -60,7 +61,7 @@
     }
     .wrapper-contents-img img{
         max-width:46%;
-        margin:.4em;
+        margin:0;
     }
 
     /***  CONTACT  ***/
