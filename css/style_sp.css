@@ -38,9 +38,9 @@
 
     /***  PROFILE  ***/
     .wrapper-profile{
+        width:auto;
     }
     .wrapper-profile-contents{
-        display:block;
     }
     .wrapper-profile-contents-img{
         width:60%;
@@ -54,6 +54,7 @@
     .wrapper-profile-contents-text-details{
         font-size:16px;
         line-height:1.4;
+        overflow: hidden;
     }
     .wrapper-profile-contents-text-link{
     }
